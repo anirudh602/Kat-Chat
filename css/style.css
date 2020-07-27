@@ -1,14 +1,22 @@
 .logo{
     display: block;
     margin: auto;
-    width: 50px;
+    width: 70px;
     height: 50px;
+}
+
+h1{
+    margin-top: 12px;
+    font-size: 30px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif ;
+    text-align: center;
 }
 
 .container{
     max-width: 1000px;
     height : 60vh;
     margin: auto;
+    border-radius: 10px;
     overflow-y: auto;
     border: 2px solid black;
     padding : 33px;
@@ -16,13 +24,13 @@
 }
 
 .message{
-    background-color: gray;
+    background-color: blanchedalmond;
     width: 24%;
     padding: 10px;
-    margin : 17px , 2px;
+    margin : 30px  2px;
     border: 2px solid black;
     border-radius: 10px;
-    
+    /* font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif; */
 }
 
 .center{
@@ -42,14 +50,14 @@
 
 #send-container{
     text-align: center;
-    width: 985px;
+    width: 1085px;
     max-width: 100%;
     display: block;
     margin: auto;
 }
 
 #messageInp{
-    width: 92%;
+    width: 89%;
     border: 2px solid black;
     border-radius: 6px;
     height : 34px;
@@ -62,6 +70,7 @@
     border: 2px solid black;
     border-radius: 6px;
     height : 34px;
+    width: 9%;
 
 }
 
