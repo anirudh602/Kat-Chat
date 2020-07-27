@@ -25,6 +25,11 @@
     
 }
 
+.center{
+    margin : auto;
+    clear : both;
+}
+
 .left{
     float : left;
     clear : both;
